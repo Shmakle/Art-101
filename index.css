@@ -1,4 +1,13 @@
 html{background-color: beige}
 
-img{flex-wrap:wrap; width:30%}
-
+img {flex-wrap:wrap; width:300px}
+img:hover{width: 320px;
+    border:10px solid brown }
+ 
+h1 {background-color:burlywood;
+margin: 75px;
+padding: 10px;
+width: 325px;
+font-weight: bolder;
+}
+body {font-family:'Franklin Gothic Medium', 'Arial normal', Arial, sans-serif}
