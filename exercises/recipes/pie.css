@@ -1,0 +1,27 @@
+html{background-color:rgba(249, 200, 137, 0.638)}
+UL {color: brown;}
+
+H1{
+background-color:burlywood;
+margin:50px;
+padding:10px}
+body {font-weight:bold;}
+
+p {color: burlywood;
+background-color: brown;}
+
+
+ul{background: burlywood;}
+
+.hi_01 {background-color: rgb(135, 34, 34);} 
+.hi_01 strong{background-color: rgb(195, 42, 42)}
+.hi_02 {background-color: orange}
+
+Img{display: block; margin-left:auto; margin-right:auto;}
+Img{width:450px;}
+img{border:10px solid burlywood;}
+
+img:hover{width: 400px;}
+img:hover{border:10px dashed brown }
+
+#gallary {display:flex; flex-wrap: wrap; align-items;row-gap:20px}
