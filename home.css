@@ -9,25 +9,21 @@ h3 {
     color: #118462;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-
 img {
     width: 40%;
 }
-
 #page {
     max-width: 750px;
     margin: 0 auto 0 auto;
     background: #ddf5e8;
     padding: 30px;
 }
-
 .topside {
     display: flex;
     gap: 10%;
     align-items: flex-start;
     margin: 0px, 0px, 25px, 0;
 }
-
 #intro {
     background: #f3f7ff;
     padding: 5%;
@@ -43,7 +39,6 @@ img {
     line-height: 1.5;
    
 }
-
 .profile {
     text-align: center;
     flex: 1;
@@ -55,7 +50,6 @@ img {
 .profile p {
     font-size: 90%;
 }
-
 .navigation {
     background: #eaffe8;
     padding: 20px;
