@@ -16,7 +16,7 @@ img {
 
 #crazyG {
     position:relative;
-    margin: 10px;
+    /*margin: 10px;*/
     left:50px;
     top:120px;
     width:280px;
@@ -30,7 +30,7 @@ img {
 }
 
 #tiny{
-    margin: 10px;
+   /* margin: 10px; */
     position: relative;
     left: 590px;
     bottom: 55px;
@@ -46,7 +46,7 @@ img {
 }
 
 #tub{
-    margin:10px;
+    /*margin:10px;*/
     position:relative;
     left:290px;
     bottom:0px;  
