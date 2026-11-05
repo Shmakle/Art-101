@@ -1,11 +1,62 @@
 html {
-    background-image: url("images/Lab.jpg");
-}
+    background-image: url("images/lab.png");
+    
+    }
 
 img {
-    size: 10px;
-    flex: 1
+    width: 300px;
+    max-width: 400px;
+
 }
-img :hover {
-    rotate: 180px;
+
+.top{
+    flex:auto;
+    gap:30px;
 }
+
+#crazyG {
+    position:relative;
+    margin: 10px;
+    left:50px;
+    top:120px;
+    width:280px;
+    /*border-style:solid;
+    border-color: rgba(222, 184, 135, 0.413);
+    border-width: 10px;
+    border-radius: 20%; */
+}
+#crazyG:hover{
+  width: 320px;  
+}
+
+#tiny{
+    margin: 10px;
+    position: relative;
+    left: 590px;
+    bottom: 55px;
+    width: 170px;
+    /*border-style:solid;
+    border-color: rgba(222, 184, 135, 0.413);
+    border-width: 10px;
+    border-radius: 20%; */
+}
+#tiny:hover{
+    width:200px;
+
+}
+
+#tub{
+    margin:10px;
+    position:relative;
+    left:290px;
+    bottom:0px;  
+    width: 300px;
+    /*border-style:solid;
+    border-color: rgba(222, 184, 135, 0.413);
+    border-width: 10px;
+    border-radius: 20%; */
+}
+#tub:hover{
+    width:325px; 
+}
+

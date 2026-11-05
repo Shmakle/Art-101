@@ -35,7 +35,7 @@ $("#needy-button").click(function(){
     if (counter >=5) buttonText="HEY!! relax, why did you click me " + counter + " times! Have you even noticed you are " + colors [colorscount] + " now?";
     
     if (counter >=15) buttonText= "STOP!... " + counter + " clicks is enough!! you probably dont even see the " + colors [colorscount] + " background do you"
-
+ 
 
 });
 
