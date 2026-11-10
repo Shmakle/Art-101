@@ -9,54 +9,65 @@ img {
 }
 
 #crazyG {
-    margin: 10px;
-    padding: auto;
+    display: block;
+    margin: auto;
+    padding: px;
     left:50px;
     top:120px;
     width:280px;
-    /*border-style:solid;
+    border-style:solid;
     border-color: rgba(222, 184, 135, 0.413);
     border-width: 10px;
-    border-radius: 20%; */
-}
-#crazyG:hover{
-  width: 320px;  
+    border-radius: 20%; 
+    background-color: rgba(209, 183, 150, 0.267);
 }
 
+
 #tiny{
-    margin: 10px; 
-    padding: auto;
+    display: block;
+    margin: auto; 
+    padding: px;
     right: 380px;
     bottom: 100px;
     width: 170px;
-    /*border-style:solid;
+    border-style:solid;
     border-color: rgba(222, 184, 135, 0.413);
     border-width: 10px;
-    border-radius: 20%; */
+    border-radius: 20%; 
+    background-color: rgba(209, 183, 150, 0.267);
 }
-#tiny:hover{
-    width:200px;
 
-}
 
 #tub{
-    margin:10px;
-    padding: auto;
+    display: block;
+    margin:auto;
+    padding: px;
     left:22%;
     top: 20%;  
     width: 300px;
-    /*border-style:solid;
+    border-style:solid;
     border-color: rgba(222, 184, 135, 0.413);
     border-width: 10px;
-    border-radius: 20%; */
+    border-radius: 20%; 
+    background-color: rgba(209, 183, 150, 0.267);
+}
 
-}
-img:hover{
-    width:320px; 
-}
 
 #bottom{
-flex-wrap: 2;
-position: fixed;
+flex-wrap: 1;
+display:flex;
+justify-content: center;
 
+}
+
+#crazyG:hover{
+  width: 320px;  
+} 
+
+#tub:hover{
+ width: 320px;
+}
+
+#tiny:hover{
+ width:200px;
 }
